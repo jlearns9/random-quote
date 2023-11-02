@@ -1,0 +1,39 @@
+html {
+    margin: 0;
+    background-image: url("./images/nature.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    background: none;
+    margin: 6rem auto;
+    display: flex;
+    max-width: 50rem;
+    font-family: 'Inter', sans-serif;
+    justify-content: center;
+}
+
+content {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    margin: 0px 2rem
+}
+
+.center-box:hover {
+    border: 2px solid grey;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+h2 {
+    text-align: end;
+    font-size: 18px;
+    font-weight: 600;
+}
